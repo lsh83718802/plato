@@ -1,0 +1,22 @@
+@import "reset";
+@import "vue";
+@import "helpers";
+
+#container {
+  padding: dpr(88px) 0 0;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+#progress {
+  position: fixed;
+  z-index: 100001;
+  top: 0;
+  left: 0;
+}
+
+#content {
+  height: 100%;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
